@@ -159,3 +159,7 @@ address {
     line-height: 19px;
     color: #8693A4;
 }
+
+.underline {
+    text-decoration: line-through;
+}
