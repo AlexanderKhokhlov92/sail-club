@@ -66,6 +66,9 @@ body {
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
     text-underline-position: under;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
 }
 
 .contact-list__item h3 {
@@ -95,6 +98,17 @@ address {
     text-transform: uppercase;
 }
 
+.footer-navigation-topics ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation-topics h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
 .copyright {
     font-size: 10px;
     line-height: 12px;
@@ -105,6 +119,13 @@ address {
     line-height: 16px;
     text-decoration: none;
     color: #163152;
+}
+
+.footer-navigation-topic li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
 .news h2 {
@@ -272,3 +293,49 @@ figure {
 .map-container {
     width: 670px;
 }
+
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.footer-navigation {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    width: 870px;
+    padding: 0;
+}
+
+.footer-navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 175px;
+}
+
+.footer-navigation-topic__item {
+    width: 165px;
+}
+
+.contacts__content h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 35px;
+}
+
