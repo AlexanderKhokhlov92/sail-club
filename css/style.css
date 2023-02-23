@@ -211,14 +211,56 @@ address {
     margin: 0 auto;
     width: 1030px;
     margin-bottom: 100px;
+    justify-content: space-between;
 }
 
 .blog-1__content {
     width: 400px;
-    margin-right: 30px;
 }
 
 .blog-1__photo {
     width: 600px;
 }
 
+.blog-2 {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.blog-2__content {
+    width: 400px;
+}
+
+.blog-2__photo {
+    width: 600px;
+    order: -1;
+}
+
+.news {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+figure {
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.contacts__content {
+    width: 400px;
+}
+
+.map-container {
+    width: 670px;
+}
