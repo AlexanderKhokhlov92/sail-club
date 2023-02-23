@@ -9,46 +9,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/outline.css">
+    <link rel="stylesheet" href="css/outline-settings.css">
 </head>
 <body>
-    <header>
-        <p class="logo">
-            <img src="img/logo.png" alt="logo" width="64px" height="68px">
-        </p>
-        <nav class="navigation-list">
-            <ul>
-                <li class="navigation-list__item"><a href="#">Наш клуб</a></li>
-                <li class="navigation-list__item"><a href="#">Регаты</a></li>
-                <li class="navigation-list__item"><a href="#">Команда</a></li>
-                <li class="navigation-list__item"><a href="#">Обучение</a></li>
-                <li class="navigation-list__item"><a href="#">Новости</a></li>
-                <li class="navigation-list__item"><a href="#">Контакты</a></li>
+    <header class="page-header">
+        <nav class="main-nav">
+            <p class="logo">
+                <img src="img/logo.png" alt="logo" width="64px" height="68px">
+            </p>
+            <ul class="navigation-list">
+                <li class="navigation-list__item">
+                    <a href="#">Наш клуб</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#">Регаты</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#">Команда</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#">Обучение</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#">Новости</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#">Контакты</a>
+                </li>
             </ul>
+            <a class="singin" href="#">
+                <img src="img/account.svg" alt="login">
+            </a>
         </nav>
-        <a class="" href="#">
-            <img src="img/account.svg" alt="login">
-        </a>
     </header>
-    <main>
+    <main class="main-content">
         <section class="hero">
             <h1>Вместе под парусом</h1>
             <img src="img/main photo 1.jpg" alt="Фото яхты" width="1170px" height="466">
         </section>
         <section class="blog-1">
-            <p class="date">20 октября - 19 апреля</p>
-            <h2>Стань частью команды</h2>
-            <p>
-                Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
-            </p>
-            <img src="img/blog-photo-2.jpg" alt="blog-photo">
+            <div class="blog-1__content">
+                <p class="date">20 октября - 19 апреля</p>
+                <h2>Стань частью команды</h2>
+                <p>
+                    Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
+                </p>
+            </div>
+            <div class="blog-1__photo">
+                <img src="img/blog-photo-2.jpg" alt="blog-photo">
+            </div>
         </section>
         <section class="blog-2">
-            <p class="date">16 июля - 23 июля</p>
-            <h2>Рожденные в воде</h2>
-            <p>
-                Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
-            </p>
-            <img src="img/blog-photo-3.jpg" alt="blog-photo-2">
+            <div class="blog-2__content">
+                <p class="date">16 июля - 23 июля</p>
+                <h2>Рожденные в воде</h2>
+                <p>
+                    Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
+                </p>
+            </div>
+            <div>
+                <img src="img/blog-photo-3.jpg" alt="blog-photo-2">
+            </div>
         </section>
         <section class="news">
             <h2>Новости</h2>
