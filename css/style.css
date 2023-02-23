@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -16,6 +17,9 @@ body {
 }
 
 .hero h1 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
     font-style: italic;
     font-weight: 400;
     font-size: 44px;
@@ -30,6 +34,8 @@ body {
 }
 
 .blog-1 h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
@@ -111,6 +117,8 @@ address {
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
     text-underline-position: under;
+    margin: 0;
+    margin-bottom: 55px;
 }
 
 .news p {
@@ -197,9 +205,7 @@ address {
 .main-content {
     width: 1170px;
     margin: 0 auto;
-    padding: 0;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding: 0 55px;
 }
 
 .hero {
@@ -255,6 +261,8 @@ figure {
     margin: 0 auto;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 120px;
 }
 
 .contacts__content {
