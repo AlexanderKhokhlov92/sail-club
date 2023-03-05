@@ -178,17 +178,6 @@ address {
     color: rgba(22, 49, 82, 0.5);
 }
 
-..footer-navigation-topics {
-    display: flex;
-    justify-content: space-between;
-    width: 870px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    line-height: 16px;
-}
-
 .footer-navigation-topics h2 {
     font-weight: 700;
     font-size: 14px;
@@ -283,6 +272,12 @@ address {
 .news li {
     font-size: 18px;
     line-height: 26px;
+}
+
+.news ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
 }
 
 .news blockquote {
@@ -553,5 +548,101 @@ figure {
 .preview-list a.active-item::before {
     background-color: transparent;
 }
+/* yacht charter */
 
+.yacht-charter {
+    width: 1170;
+}
 
+.yacht-charter h2 {
+    margin-top: 0;
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.yacht-charter__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+.yacht-charter a {
+    text-decoration: none;
+    color: #163152;
+
+}
+
+.yacht-charter__list-item {
+    width: 310px;
+    padding: 30px;
+    background-color: #FDFDFF;
+    box-shadow: 0px 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.yacht-charter__list-item img {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.yacht-charter__list-item  ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.yacht-charter__list-item h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 18px;
+}
+
+.yacht-charter__list-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.yacht-charter__list-item li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+
+.yacht-charter__list-item li:last-child {
+    margin-bottom: 0;
+}
+
+.price-container {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
