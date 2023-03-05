@@ -33,6 +33,14 @@ body {
     text-decoration: none;
 }
 
+.navigation-list__item a:hover {
+    opacity: 0.5;
+}
+
+.navigation-list__item a:active {
+    opacity: 0.3;
+}
+
 .hero h1 {
     padding: 0;
     margin-top: 0;
@@ -75,6 +83,12 @@ body {
     text-underline-position: under;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 .contacts h2 {
     font-weight: 700;
     font-size: 24px;
@@ -89,16 +103,67 @@ body {
     margin-bottom: 35px;
 }
 
-.contact-list__item h3 {
-    font-weight: 700;
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list__item {
+    margin: 0;
+    margin-bottom: 15px;
     font-size: 16px;
     line-height: 22px;
+}   
+
+.contact-list__item li {
+    margin-bottom: 15px;
+}
+
+.contact-list__item h3 {
+    display: inline;
+    margin: 0;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social-list__item {
+    margin-right: 15px;
+}
+
+.social-list__item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #00c6bd;
+}
+
+.social-list__item a:hover {
+    opacity: 0.5;
+}
+
+.social-list__item a:active {
+    opacity: 0.3;
 }
 
 address {
     font-size: 16px;
     line-height: 22px;
     font-style: normal;
+    display: inline;
 }
 
 .contact-list__item a {
@@ -109,11 +174,29 @@ address {
     color: #163152;
 }
 
+.contact-list__item a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+..footer-navigation-topics {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
 .footer-navigation-topics h2 {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .footer-navigation-topics ul {
@@ -121,15 +204,13 @@ address {
     padding: 0;
 }
 
-.footer-navigation-topics h2 {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
 .copyright {
     font-size: 10px;
     line-height: 12px;
+}
+
+.footer-navigation-topic  .footer-navigation-topic__item {
+    margin-bottom: 12px;
 }
 
 .footer-navigation-topic__item a {
@@ -139,11 +220,19 @@ address {
     color: #163152;
 }
 
+.footer-navigation-topic__item a:hover {
+    opacity: 0.5;
+}
+
+.footer-navigation-topic__item a:active {
+    opacity: 0.3;
+}
+
 .footer-navigation-topic li {
     margin: 0;
     padding: 0;
     list-style: none;
-
+    margin-bottom: 12px;
 }
 
 .news h2 {
@@ -208,6 +297,27 @@ address {
     color: #8693A4;
 }
 
+.news__footer {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.border {
+    border: 1px solid rgba(22, 49, 82, 0.1);
+}
+
+.share-it {
+    margin-left: auto;
+}
+
+.share-it:hover {
+    opacity: 0.5;
+}
+
 .underline {
     text-decoration: line-through;
 }
@@ -246,6 +356,14 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.singin:hover {
+    opacity: 0.5;
+}
+
+.singin:active {
+    opacity: 0.3;
 }
 
 .main-content {
@@ -322,9 +440,9 @@ figure {
 .page-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-top: 120px;
     font-size: 10px;
     line-height: 12px;
+    border-top: 1px solid rgba(22, 49, 82, 0.1);
 }
 
 .footer-navigation {
@@ -408,9 +526,32 @@ figure {
     margin-bottom: 0;
 }
 
-.preview-list-item {
+.preview-list img {
     display: block;
 }
 
+.author {
+    width: 60px;
+    height: 60px;
+}
+
+.preview-list a {
+    display: block;
+    position: relative;
+}
+
+.preview-list a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.preview-list a.active-item::before {
+    background-color: transparent;
+}
 
 
